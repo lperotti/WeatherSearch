@@ -22,3 +22,11 @@ Example:
 
 Frameworks:
   SpringFramework: Because of its ease of executing an serverless application, facilitating configurations and being a recognized construction standard and I consider it   the ideal for the development of microservices of the Rest type
+
+
+Example to run the service:
+- Put de .jar and de props file in the same folder.
+- Open a CMD and CD to the .jar folder
+- Run the command: java -jar WeatherSearch.jar
+- Using Postman or other software of your choice paste the following url: http://localhost:4000/weather/search
+- Write the request in the body and click "Send".
